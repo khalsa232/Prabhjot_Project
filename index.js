@@ -54,6 +54,7 @@ function checkGuess(guessedCode) {
         }
     } else {
         document.getElementById("hint").innerText = "You've unlocked the vault!";
+        setTimeout(playAgain, 2000);
     }
 }
 

@@ -1,10 +1,10 @@
-
 #try-el {
     position: absolute;
     top: 0;
     right: 0;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
+    margin-right: 35px;
 }
 
 #counter-el {
@@ -13,22 +13,59 @@
     right: 0;
     padding: 10px;
     font-size: 30px;
-    margin-top: 30px; 
+    margin-top: 20px;
 }
 
 body {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
-    height: 100vh;           
-    margin: 0;     
-    background-image: ("https://signnn.com/wp-content/uploads/2023/05/AdobeStock_573349794-scaled.jpeg");          
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("AdobeStock_573349794-scaled-1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
 
 button {
-    margin: 10px; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    background-color: hotpink;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: gold;
+    border-color: black;
+    border-width: 10px;
+    font-family: Marker Felt;
+    color: rgb(16, 94, 112);
 }
 
+#clear-el {
+    margin-left: 85px;
+
+}
+
+#counter-el,
+h1 {
+    color: red;
+    font-family: Marker Felt;
+    background-color: black;
+}
+
+#guess-el{
+    color: white;
+    background-color: rgb(16, 94, 112);
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 5%;
+    font-family: Marker Felt;
+}
+
+#hint{
+text-align: center;
+font-family: Marker Felt;
+color: red;
+background-color:rgb(16, 94, 112);
+padding: 5%;
+}
