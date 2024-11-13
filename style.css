@@ -1,0 +1,34 @@
+
+#try-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#counter-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 30px; 
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;     
+    background-image: ("https://signnn.com/wp-content/uploads/2023/05/AdobeStock_573349794-scaled.jpeg");          
+}
+
+button {
+    margin: 10px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: hotpink;
+}
+
